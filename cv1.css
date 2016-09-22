@@ -1,6 +1,11 @@
-html body{
+html 
+body{
 	font-family: verdana;
 	font-size: 20px;
+}
+
+.image{
+	text-align: center;
 }
 
 h1 {
@@ -13,14 +18,38 @@ h2 {
 	font-size: 30px;
 }
 
+.paragraphe1{
+	border-style: solid;
+	width: 300px;
+	text-align: left;
+	position: absolute;
+	top: 600px;
+	left: 450px;
+}
+
 .paragraphe2{
-	text-align: center;
+
+	width: 500px;
+	border-style:solid;
+	position: absolute;
+	top: 800px;
+	left: 390px;
+}
+
+.paragraphe3{
+	border-style:solid;
+	position: absolute;
+	top: 1050px;
+	left: 2px;
 }
 
 .paragraphe13 {
 	text-align: center;
+	border-style: solid;
+	position: absolute;
+	top: 1900px;
+	left: 490px;
+	width : 300px;
+
 }
 
-.paragraphe1{
-	text-align: center;
-}
